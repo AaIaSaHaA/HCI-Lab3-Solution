@@ -1,0 +1,78 @@
+body{
+    background-image: url('bg.jpg');
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+}
+
+.login-container{
+    padding-left: 40px;
+    padding-right: 40px;
+    background:transparent;
+    backdrop-filter: blur(20px);
+    border: 2px solid rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    padding-bottom: 40px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    color: aliceblue;
+
+
+}
+
+h2{
+   text-align: center;
+   font:bold;
+   font-size: 35px;
+   margin-bottom: 20px;   
+}
+
+input{
+    width: 100%;
+    padding: 6px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+
+}
+label{
+    font-family:'Times New Roman', Times, serif;
+    font: bolder;
+}
+a{
+    color: white;
+    font-size: small;
+    text-decoration: none ;
+    display: flex;
+    justify-content: flex-end;
+}
+a:hover{
+
+   
+   text-decoration: underline;
+   
+}
+
+button{
+    width: 50%;
+    margin-left: 68px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border: none;
+    border-radius: 2px;
+    background-image: linear-gradient(90deg, #7b81ec, #3bd1d3);
+    color: white;
+    cursor: pointer;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+button:hover{
+    background-color: #9ebdec;
+    background: linear-gradient(#0a1a33,#0d2243);
+}
+
+.thank {
+    text-align: center;
+    font-size: 18px;
+}
